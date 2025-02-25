@@ -76,9 +76,9 @@ body{
 
   }
 }
-#sideline{
-
-}
+/* #sideline{
+  @apply bg-neutral-950
+} */
 
 #sideline::before{
   content: '';
