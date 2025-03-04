@@ -48,7 +48,7 @@ function Projects(){
                     <img className=' h-12 p-2  opacity-85 group-hover:animate-none duration-75 group-hover:opacity-100  bg-neutral-800 rounded-lg' src={IconPhp} alt="PHP Logo" />                                                                            
                     <img className=' h-12 p-2  opacity-85 group-hover:animate-none duration-75 group-hover:opacity-100  bg-neutral-800 rounded-lg' src={IconMySql} alt="PHP Logo" />                                                                            
                 </div> */}
-                <div className=" z-20 animate-show flex flex-row justify-start items-center py-4 gap-8">
+                <div className="z-20 animate-show flex flex-row justify-start items-center py-4 gap-8">
                     {/* <button className="bg-neutral-800 border border-neutral-700 drop-shadow-sm   hover:bg-neutral-800 ease-in-out duration-100 hover:animate-none animate-pulse text-neutral-200 text-xs w-[120px] font-semibold px-4 py-2 rounded-md ">
                         More Info
                     </button> */}

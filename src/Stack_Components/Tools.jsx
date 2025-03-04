@@ -126,7 +126,7 @@ function Tools(){
                 style={{ backgroundImage: `url(${StarsGif})` }} ></div>
 
                 {/*  Icon */}
-                <div  
+                {/* <div  
                 id='span-leftToRight'
                 onMouseOver={mouseHoverOnReact}
                 onMouseOut={mouseHoverOffReact}
@@ -136,19 +136,7 @@ function Tools(){
                         <p className='text-xs font-semibold'>{reactTxtT}</p>
                         <p className='text-[10px] font-light text-neutral-400'>{reactTxtD}</p>
                     </div>
-                </div>
-                {/*  Icon */}
-                <div  
-                id='span-leftToRight'
-                onMouseOver={mouseHoverOnTailwind}
-                onMouseOut={mouseHoverOffTailwind}
-                className="cursor-pointer relative group hover:-translate-y-2 opacity-70 hover:opacity-100 hover:translate-x-10 animate-left-to-right text-neutral-200  hover:scale-110 hover:drop-shadow-xs  border border-transparent ease-in-out duration-300 px-2 py-2 rounded-md w-[80%] h-max flex flex-row justify-start items-center gap-8">
-                    <img className='h-12 p-2 opacity-85  group-hover:animate-left-to-right  duration-300 group-hover:bg-inherit group-hover:opacity-100   rounded-lg' src={IconTailwind} alt="React Logo" />
-                    <div  className=' group-hover:text-neutral-100 text-neutral-200  h-full w-full'>
-                        <p className='text-xs font-semibold'>{tailwindTxtT}</p>
-                        <p className='text-[10px] font-light text-neutral-400'>{tailwindTxtD}</p>
-                    </div>
-                </div>
+                </div> */}
                 {/*  Icon */}
                 <div  
                 id='span-leftToRight'
@@ -171,6 +159,18 @@ function Tools(){
                     <div  className=' group-hover:text-neutral-100 text-neutral-200  h-full w-full'>
                         <p className='text-xs font-semibold'>{CssTxtT}</p>
                         <p className='text-[10px] font-light text-neutral-400'>{CssTxtD}</p>
+                    </div>
+                </div>
+                {/*  Icon */}
+                <div  
+                id='span-leftToRight'
+                onMouseOver={mouseHoverOnTailwind}
+                onMouseOut={mouseHoverOffTailwind}
+                className="cursor-pointer relative group hover:-translate-y-2 opacity-70 hover:opacity-100 hover:translate-x-10 animate-left-to-right text-neutral-200  hover:scale-110 hover:drop-shadow-xs  border border-transparent ease-in-out duration-300 px-2 py-2 rounded-md w-[80%] h-max flex flex-row justify-start items-center gap-8">
+                    <img className='h-12 p-2 opacity-85  group-hover:animate-left-to-right  duration-300 group-hover:bg-inherit group-hover:opacity-100   rounded-lg' src={IconTailwind} alt="React Logo" />
+                    <div  className=' group-hover:text-neutral-100 text-neutral-200  h-full w-full'>
+                        <p className='text-xs font-semibold'>{tailwindTxtT}</p>
+                        <p className='text-[10px] font-light text-neutral-400'>{tailwindTxtD}</p>
                     </div>
                 </div>
                 {/*  Icon */}
